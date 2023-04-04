@@ -1,0 +1,169 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- */
+/* starter pack */
+
+.container{
+    display: flex;
+}
+
+.standard-width{
+    width: 70%;
+}
+
+.height100{
+    height: 100%;
+}
+
+.height80{
+    height: 80%;
+}
+
+.in-flex-centered-item{
+    margin: auto;
+}
+
+.border{
+    border: 1px dashed black;
+}
+
+/* ------------------------------- */
+/* header section "navbar container" */
+
+header section:first-child{
+    background-color: lightblue;
+    height: 100px;
+}
+
+header nav{
+    background-color: orange;
+    height: 60px;
+}
+
+nav div.container{
+    align-items: center;
+}
+
+nav div.container:nth-child(odd){
+    width: 25%;
+}
+
+nav div:nth-child(even){
+    width: 50%;
+    justify-content: center;
+}
+
+nav div:first-child{
+    justify-content: flex-start;
+}
+
+nav div:last-child{
+    justify-content: flex-end;
+}
+
+nav ul.container{
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+nav ul > li{
+    list-style: none;
+}
+
+nav a{
+    color: black;
+}
+
+/* ------------------------------- */
+/* header section "sect-hero container" */
+
+header section:last-child{
+    background-color: blue;
+    height: 600px;
+}
+
+section:last-child div.hero{
+    width: 50%;
+    background-color: violet;
+}
+
+/* ------------------------------- */
+/* main sections */
+
+main section:nth-child(even){
+    background-color: lightgray;
+}
+
+main section:nth-child(2) > div.container{
+    flex-direction: row-reverse;
+}
+
+.big-sect-height{
+    height: 950px;
+}
+
+.standard-sect-height{
+    height: 700px;
+}
+
+.width65{
+    width: 65%;
+}
+
+.width35{
+    width: 35%;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.skyblue{
+    background-color: skyblue;
+}
+
+.green{
+    background-color: green;
+}
+
+/* ------------------------------- */
+/* footer section 1 */
+
+footer > section{
+    background-color: rgb(55, 55, 55);
+}
+
+footer section:first-child div.container div:first-child{
+    width: calc(200% / 6);
+    background-color: rgb(249, 147, 164);
+}
+
+footer section:first-child div.container div:not(div:first-child){
+    width: calc(100% / 6);
+    background-color: rgb(64, 173, 137);
+}
+
+/* ------------------------------- */
+/* footer section 2 */
+
+footer section:last-child{
+    height: 100px;
+    border-top: 1px solid white;
+}
+
+footer section:last-child > div{
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer section:last-child > div > div{
+    height: 40%;
+    padding: 5px 10px;
+    background-color: pink;
+}
