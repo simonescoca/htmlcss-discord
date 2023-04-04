@@ -14,6 +14,11 @@
     display: flex;
 }
 
+.container-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .standard-width{
     width: 70%;
 }
@@ -163,8 +168,32 @@ main section:nth-child(even){
     background-color: lightgray;
 }
 
+main div > div{
+    display: flex;
+}
+
+main aside h1{
+    font-size: 3vw;
+    line-height: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main aside p{
+    font-size: 1.3vw;
+    line-height: 2.2rem;
+    font-weight: 300;
+}
+
 main section:nth-child(2) > div.container{
     flex-direction: row-reverse;
+}
+
+main section:last-child{
+    text-align: center;
+}
+
+main section:last-child img{
+    height: 85%;
 }
 
 .big-sect-height{
@@ -181,14 +210,6 @@ main section:nth-child(2) > div.container{
 
 .width35{
     width: 35%;
-}
-
-.pink{
-    background-color: pink;
-}
-
-.skyblue{
-    background-color: skyblue;
 }
 
 .green{
