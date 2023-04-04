@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 /* ------------------------------- */
@@ -32,17 +34,29 @@
     border: 1px dashed black;
 }
 
-/* ------------------------------- */
-/* header section "navbar container" */
+.pill{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
 
-header section:first-child{
-    background-color: lightblue;
-    height: 100px;
+/* ------------------------------- */
+/* header section "navbar & hero container" */
+
+header > section{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header nav{
-    background-color: orange;
     height: 60px;
+    margin-top: 20px;
 }
 
 nav div.container{
@@ -53,43 +67,94 @@ nav div.container:nth-child(odd){
     width: 25%;
 }
 
-nav div:nth-child(even){
+nav div.container:nth-child(even){
     width: 50%;
     justify-content: center;
 }
 
-nav div:first-child{
+nav div.container:first-child{
     justify-content: flex-start;
 }
 
-nav div:last-child{
+nav div.container:last-child{
     justify-content: flex-end;
 }
 
 nav ul.container{
-    width: 40%;
+    width: 90%;
     justify-content: space-evenly;
+    font-size: 0.85vw;
 }
 
 nav ul > li{
     list-style: none;
 }
 
-nav a{
-    color: black;
+a{
+    text-decoration: none;
 }
 
-/* ------------------------------- */
-/* header section "sect-hero container" */
-
-header section:last-child{
-    background-color: blue;
-    height: 600px;
+nav a:hover{
+    text-decoration: underline;
 }
 
-section:last-child div.hero{
+p.pill.white-bg a:hover{
+    color: rgb(49, 159, 255);
+    text-decoration: none;
+}
+
+nav img.logo{
+    margin-left: 10px;
+}
+
+nav p.pill{
+    margin-right: 10px;
+}
+
+header div.hero{
     width: 50%;
     background-color: violet;
+    height: 68%;
+    margin-bottom: 60px;
+}
+
+div.hero section.container{
+    justify-content: center;
+}
+
+div.hero section.container p:first-child{
+    margin-right: 15px;
+}
+
+div.hero > *:not(section.container){
+    text-align: center;
+    color: white;
+}
+
+div.hero h1{
+    margin-bottom: 50px;
+    font-size: 4vw;
+}
+
+div.hero > p{
+    margin-bottom: 20px;
+    font-size: 1vw;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.white-txt{
+    color: white;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.black-txt{
+    color: black;
 }
 
 /* ------------------------------- */
