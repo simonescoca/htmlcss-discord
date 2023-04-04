@@ -248,6 +248,7 @@ footer > section{
 footer h2{
     font-size: 1.5vw;
     color: rgb(117, 113, 187);
+    margin-bottom: 1.5rem;
 }
 
 footer section:first-child div.container div:first-child{
@@ -256,6 +257,8 @@ footer section:first-child div.container div:first-child{
 
 footer section:first-child li{
     margin-left: 15px;
+    font-weight: 300;
+    line-height: 1.5rem;
 }
 
 footer section:first-child li:first-child{
@@ -268,6 +271,16 @@ footer section:first-child li:not(li:first-child){
 
 footer section:first-child div.container div:not(div:first-child){
     width: calc(100% / 6);
+}
+
+img.ita-flag{
+    width: 30px;
+    vertical-align: middle;
+}
+
+footer section:first-child div.container div:first-child > div{
+    width: 100%;
+    vertical-align: middle;
 }
 
 /* ------------------------------- */
