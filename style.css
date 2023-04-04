@@ -245,6 +245,10 @@ footer > section{
     background-color: rgb(55, 55, 55);
 }
 
+footer section:first-child{
+    height: 450px;
+}
+
 footer h2{
     font-size: 1.5vw;
     color: rgb(117, 113, 187);
@@ -299,4 +303,10 @@ footer section:last-child > div{
 footer section:last-child > div > div{
     height: 40%;
     padding: 5px 10px;
+}
+
+footer select{
+    background-color: rgb(55, 55, 55);
+    border: none;
+    color: white;
 }
