@@ -31,6 +31,10 @@
     height: 80%;
 }
 
+.height60{
+    height: 60%;
+}
+
 .in-flex-centered-item{
     margin: auto;
 }
@@ -190,18 +194,36 @@ main section:nth-child(2) > div.container{
 
 main section:last-child{
     text-align: center;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-main section:last-child img{
-    height: 85%;
+main section:last-child div.container-column{
+    align-items: center;
+    margin-top: 60px;
+}
+
+main section:last-child img:first-of-type{
+    width: 75%;
+}
+
+main section:last-child div > div{
+    background-image: url(img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .big-sect-height{
-    height: 950px;
+    height: 1200px;
 }
 
 .standard-sect-height{
     height: 700px;
+}
+
+h2{
+    font-size: 1.5vw;
+    margin-bottom: 3rem;
 }
 
 .width65{
