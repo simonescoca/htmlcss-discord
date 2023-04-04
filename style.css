@@ -200,7 +200,7 @@ main section:last-child{
 
 main section:last-child div.container-column{
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 main section:last-child img:first-of-type{
@@ -214,7 +214,7 @@ main section:last-child div > div{
 }
 
 .big-sect-height{
-    height: 1200px;
+    height: 1100px;
 }
 
 .standard-sect-height{
@@ -262,7 +262,7 @@ footer section:first-child div.container div:first-child{
 footer section:first-child li{
     margin-left: 15px;
     font-weight: 300;
-    line-height: 1.5rem;
+    line-height: 1.9rem;
 }
 
 footer section:first-child li:first-child{
