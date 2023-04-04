@@ -221,7 +221,7 @@ main section:last-child div > div{
     height: 700px;
 }
 
-h2{
+main h2{
     font-size: 1.5vw;
     margin-bottom: 3rem;
 }
@@ -245,14 +245,29 @@ footer > section{
     background-color: rgb(55, 55, 55);
 }
 
+footer h2{
+    font-size: 1.5vw;
+    color: rgb(117, 113, 187);
+}
+
 footer section:first-child div.container div:first-child{
     width: calc(200% / 6);
-    background-color: rgb(249, 147, 164);
+}
+
+footer section:first-child li{
+    margin-left: 15px;
+}
+
+footer section:first-child li:first-child{
+    color: rgb(117, 113, 187);
+}
+
+footer section:first-child li:not(li:first-child){
+    color: white
 }
 
 footer section:first-child div.container div:not(div:first-child){
     width: calc(100% / 6);
-    background-color: rgb(64, 173, 137);
 }
 
 /* ------------------------------- */
